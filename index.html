@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:wght@100;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Trailhead</title>
+</head>
+
+<body>
+    <header class="fixed-top d-flex flex-row align-items-center justify-content-center">
+        <div class="wrapper px-5">
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="d-flex align-items-end trailhead-logo">
+                        <img src="assets/img/trailhead_logo.svg" alt="Trailhead Logo">
+                        <h1 class="h1 logo-text ms-4 mb-0 fw-lighter">Trailhead</h1>
+                    </a>
+                </div>
+                <div class="col d-flex justify-content-end align-items-center">
+                    <a href="#" class="btn btn-primary btn-lg position-relative py-3 px-4 fw-lighter">Notify Me<span class="position-absolute"><i
+                                class="fa fa-bell"></i></span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="sidebar position-fixed">
+        <ul>
+            <li class="d-flex justify-content-end align-items-center">
+                <p class="text-light me-4 mb-0 py-2 px-3">Home</p>
+                <a href="#home"></a>
+            </li>
+            <li class="d-flex justify-content-end align-items-center">
+                <p class="text-light me-4 mb-0 py-2 px-3">About</p>
+                <a href="#about"></a>
+            </li>
+            <li class="d-flex justify-content-end align-items-center">
+                <p class="text-light me-4 mb-0 py-2 px-3">Features</p>
+                <a href="#features"></a>
+            </li>
+            <li class="d-flex justify-content-end align-items-center">
+                <p class="text-light me-4 mb-0 py-2 px-3">Testimonials</p>
+                <a href="#testimonials"></a>
+            </li>
+            <li class="d-flex justify-content-end align-items-center">
+                <p class="text-light me-4 mb-0 py-2 px-3">Founders</p>
+                <a href="#founders"></a>
+            </li>
+            <li class="d-flex justify-content-end align-items-center">
+                <p class="text-light me-4 mb-0 py-2 px-3">Sign Up</p>
+                <a href="#signup"></a>
+            </li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero w-100 d-flex flex-column align-items-center justify-content-center text-light scroll-section">
+        <div class="wrapper d-flex flex-column align-items-center justify-content-center position-relative px-5">
+            <div class="content-container">
+                <div class="row countdown-row mb-5">
+                    <div class="col countdown-col d-flex p-0">
+                        <div class="col text-center">
+                            <h1 id="days" class="display-1 fw-lighter">00</h1>
+                            <h4 class="h4 fw-lighter">Days</h4>
+                        </div>
+                        <div class="col text-center">
+                            <h1 id="hours" class="display-1 fw-lighter">00</h1>
+                            <h4 class="h4 fw-lighter">Hours</h4>
+                        </div>
+                    </div>
+                    <div class="col countdown-col d-flex p-0">
+                        <div class="col text-center">
+                            <h1 id="minutes" class="display-1 fw-lighter">00</h1>
+                            <h4 class="h4 fw-lighter">Minutes</h4>
+                        </div>
+                        <div class="col text-center">
+                            <h1 id="seconds" class="display-1 fw-lighter">00</h1>
+                            <h4 class="h4 fw-lighter">Seconds</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-row mb-5">
+                    <div class="col text-center">
+                        <h4 class="h4 mb-3 fw-lighter">Before the launch, enjoy a <strong>Very Limited Opportunity</strong> by subscribing to
+                            our newsletter.</h4>
+                        <h4 class="h4 fw-lighter">Click on the button below to get more information about our project.</h4>
+                    </div>
+                </div>
+                <div class="row button-row">
+                    <div class="col d-flex flex-row align-items-center justify-content-center">
+                        <a href="#about">
+                            <button class="btn btn-light py-3 px-4 fw-bold">
+                                More Information
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row position-absolute social-links">
+                    <div class="col">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="col mx-4">
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row position-absolute arrow-down">
+                    <div class="col">
+                        <a href="#">
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="info-section about scroll-section">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 img-col m-0 p-0">
+                <img
+                    src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80">
+            </div>
+            <div class="col-md-6 col-sm-12 text-col d-flex flex-column justify-content-center align-items-start ms-0">
+                <div class="wrapper px-5">
+                    <h2 class="display-2 mb-3 fw-lighter">Hiking, Redefined</h2>
+                    <p class="text-justify">In the United States, Canada, the Republic of Ireland, and the United Kingdom,
+                        hiking means walking outdoors on a trail, or off trail, for recreational purposes. A day hike refers to a hike that can be completed in a
+                        single day. However, in the United Kingdom, the word walking is also used, as well as rambling, while walking in mountainous
+                        areas is called hillwalking. In Northern England, Including the Lake District and Yorkshire Dales, fellwalking
+                        describes hill or mountain walks, as fell is the common word for both features there.</p>
+                    <p class="text-justify">The poet Petrarch is frequently mentioned as an early example of someone hiking.
+                        Petrarch recounts that on April 26, 1336, with his brother and two servants, he climbed to the top of Mont Ventoux (1,912 meters
+                        (6,273 ft), a feat which he undertook for recreation rather than necessity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="info-section features scroll-section">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-col d-flex flex-column justify-content-center align-items-start pe-0">
+                <div class="wrapper px-5">
+                    <h2 class="display-2 mb-3">Features</h2>
+                    <p class="features-description mb-5">Most mobile devices are sold with several apps bundled as pre-installed software, such as a web
+                        browser, email client,
+                        calendar, mapping program, and an app for buying music, other media, or more apps.</p>
+                    <div id="slide-container" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 px-3">
+                                        <i class="fa fa-ambulance mb-4"></i>
+                                        <h1 class="h1 mb-2">Medical Support</h1>
+                                        <p>About 90% of medical visits can be treated by the primary care provider.</p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 px-3">
+                                        <i class="fa fa-map mb-4"></i>
+                                        <h1 class="h1 mb-2">Trail Map Database</h1>
+                                        <p>Maps of climatic regionalization, that is, division of the earth's surface into climatic zones are a special kind
+                                            of climatic map.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 px-3">
+                                        <i class="fa fa-compass mb-4"></i>
+                                        <h1 class="h1 mb-2">Your Guide</h1>
+                                        <p>Tour guides lead visitors through tourist attractions and give information about the attractions' natural and
+                                            cultural
+                                            significance.</p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 px-3">
+                                        <i class="fa fa-rocket mb-4"></i>
+                                        <h1 class="h1 mb-2">Super Optimized</h1>
+                                        <p>Maps of climatic regionalization, that is, division of the earth's surface into climatic zones are a special
+                                            kind of climatic map.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 px-3">
+                                        <i class="fa fa-cube mb-4"></i>
+                                        <h1 class="h1 mb-2">Augmented Reality</h1>
+                                        <p>AR Mixer is an app that allows one to select and mix between songs by manipulating objects—such as changing
+                                            the orientation.</p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 px-3">
+                                        <i class="fa fa-heart mb-4"></i>
+                                        <h1 class="h1 mb-2">Made with Love</h1>
+                                        <p>Abstractly discussed, love usually refers to an experience one person feels for another.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 d-flex justify-content-start align-items-center">
+                                <div class="carousel-controls d-flex">
+                                    <button class="carousel-control-prev me-4" type="button" data-bs-target="#slide-container" data-bs-slide="prev">
+                                        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                                        <i class="fa fa-angle-left"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#slide-container" data-bs-slide="next">
+                                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                                        <i class="fa fa-angle-right"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 d-flex justify-content-end align-items-center">
+                                <div class="carousel-indicators mb-0">
+                                    <button type="button" data-bs-target="#slide-container" data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slide-container" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slide-container" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 img-col ps-0">
+                <img
+                    src="https://images.unsplash.com/photo-1599202860130-f600f4948364?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80">
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="info-section testimonials scroll-section">
+        <div class="row">
+            <div class="col img-col p-0">
+                <div class="row img-2-up m-0">
+                    <div class="col-12 col-md-6 p-0">
+                        <div
+                            class="testimonial d-flex flex-column justify-content-center align-items-center px-5">
+                            <h1 class="h1 mb-3">"This changes everything...wow!"</h1>
+                            <h4 class="h4">Will</h4>
+                            <h5 class="h5"><em>Big Bear Lake, CA</em></h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 p-0">
+                        <div
+                            class="testimonial d-flex flex-column justify-content-center align-items-center px-5">
+                            <h1 class="h1 mb-3">"Trailhead is the best hiking app, period."</h1>
+                            <h4 class="h4">Alicia</h4>
+                            <h5 class="h5"><em>Moab, UT</em></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row img-2-up m-0">
+                    <div class="col-12 col-md-6 p-0">
+                        <div
+                            class="testimonial d-flex flex-column justify-content-center align-items-center px-5">
+                            <h1 class="h1 mb-3">"Can't leave home without it!"</h1>
+                            <h4 class="h4">Robin</h4>
+                            <h5 class="h5"><em>Big Sky, MT</em></h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 p-0">
+                        <div
+                            class="testimonial d-flex flex-column justify-content-center align-items-center px-5">
+                            <h1 class="h1 mb-3">"Simply wonderful!"</h1>
+                            <h4 class="h4">Benji</h4>
+                            <h5 class="h5"><em>Sedona, AZ</em></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="founders" class="info-section founders scroll-section">
+        <div class="row">
+            <div class="col text-col d-flex flex-column justify-content-center align-items-start">
+                <div class="wrapper px-5">
+                    <div class="row">
+                        <div class="col d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="display-2 mb-3">Meet Our Founders</h2>
+                            <p class="mb-5 text-center px-5">An organizational founder is a person who has undertaken some or all of the formational work
+                                needed to create a new
+                                organization, whether it is a business, a charitable organization, a governing body, a
+                                school, a group of entertainers,
+                                or any other type of organization.</p>
+                            <div class="row">
+                                <div class="col-md-6 founder-col d-flex flex-column justify-content-center text-center">
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1617718860170-dd5d9f2ed43d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                                        alt="">
+                                    <h2>Firouz Hashmi<span class="ms-3">CEO</span></h2>
+                                    <p class="mb-0 px-5">Firouz was the chief executive officer of Google from 1997 until August 2001
+                                        (stepping down in favor of Eric Schmidt) then
+                                        from April 2011 until July 2015 when he moved to become CEO of Alphabet Inc.</p>
+                                </div>
+                                <div class="col-md-6 founder-col d-flex flex-column justify-content-center text-center">
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1619016984980-703b4cf09515?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                                        alt="">
+                                    <h2>Simon Krause<span class="ms-3">CTO</span></h2>
+                                    <p class="mb-0 px-5">Simon co-founded Instagram along with Kevin Systrom, and served as its CTO. Under
+                                        Simon as CTO, Instagram expanded from a
+                                        few million users to 1 billion monthly active users.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="signup" class="d-flex justify-content-center align-items-center flex-column text-center position-relative scroll-section">
+        <div class="wrapper px-5">
+            <div class="row">
+                <div class="col text-center m-0 p-0">
+                    <h2 class="display-2 mb-4">Sign Up for Updates</h2>
+                    <p class="mb-0">Be the first to know about the latest updates and news about Trailhead and receive exclusive perks!
+                    </p>
+                    <form class="d-flex flex-column my-5">
+                        <input type="text" name="name" id="name" placeholder="Name" class="text-center mb-3 py-3">
+                        <input type="text" name="email" id="email" placeholder="Email" class="text-center mb-4 py-3">
+                        <input class="btn btn-primary py-4" type="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="row position-absolute copyright">
+                <div class="col">
+                    <p class="text-center mb-0">&copy;<span id="copyright-date"></span> Trailhead, LLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
